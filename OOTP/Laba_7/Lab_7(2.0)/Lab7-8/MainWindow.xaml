@@ -1,0 +1,124 @@
+﻿<Window x:Class="Lab7_8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7_8"
+        mc:Ignorable="d"
+        Icon="C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_7\Lab_7(2.0)\icon.png"
+        Title="{DynamicResource m_title}" MinHeight="450" MinWidth="800"  Style="{DynamicResource WindowStyle}"  Loaded="Window_Loaded" Closed="Close_click">
+    <Grid x:Name="mainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+ 
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0"   Background="{DynamicResource buttonBrush}"  Content="{DynamicResource m_add}"
+                    Command="New">
+                <Button.CommandBindings>
+                    <CommandBinding Command="New" Executed="Make_click"/>
+                </Button.CommandBindings>
+            </Button>
+            <Button  Grid.Row="1" Style="{DynamicResource Event}"  Content="{DynamicResource m_save}" 
+                    Command="New">
+                <Button.CommandBindings>
+                    <CommandBinding Command="New" Executed="Save_click"/>
+                </Button.CommandBindings>
+            </Button>
+            <Button Grid.Row="2" x:Name="About" Style="{DynamicResource About2}" Content="{DynamicResource m_about}" 
+                    Command="New">
+                <Button.CommandBindings>
+                    <CommandBinding Command="New" Executed="About_click"/>
+                </Button.CommandBindings>
+            </Button>
+            <Button Grid.Row="3"  Foreground="White" Content="{DynamicResource m_reset}" Command="New">
+                <Button.CommandBindings>
+                    <CommandBinding Command="New" Executed="SClear_click"/>
+                </Button.CommandBindings>
+            </Button>
+            <Menu Grid.Row="4" >
+                <MenuItem x:Name="menuLanguage" Header="{DynamicResource m_lang}" ></MenuItem>
+            </Menu>
+            <CheckBox Grid.Row="5" x:Name="checkBox1" Content="Disable" />
+            <Button Grid.Row="5" Style="{DynamicResource DataTrigger}"  Margin="20 20 20 20" x:Name="button1" Content="Кнопка 1" />
+        </Grid>
+        
+        <StackPanel Grid.Column="1">
+            
+            <StackPanel Orientation="Horizontal">
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5">
+                    <Label Content="{DynamicResource m_stype}"/>
+                    <TextBox x:Name="Type" Width="100"/>
+                    <Button x:Name="SType" Content="{DynamicResource m_search}" Command="New">
+                        <Button.CommandBindings>
+                            <CommandBinding Command="New" Executed="Search_click"/>
+                        </Button.CommandBindings>
+                    </Button>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5">
+                    <Label Content="{DynamicResource m_sdescr}"/>
+                    <Button x:Name="SDescription" Content="{DynamicResource m_srtbydate}" Command="New">
+                        <Button.CommandBindings>
+                            <CommandBinding Command="New" Executed="SortByDate_click"/>
+                        </Button.CommandBindings>
+                    </Button>
+                    <ComboBox x:Name="styleBox" Margin="20 0 0 0 "/>
+                </StackPanel>
+
+            </StackPanel>
+
+            
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5">
+                
+                <Calendar HorizontalAlignment="Left" x:Name="EndDate"></Calendar>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="20 30 20 0">
+                    <RadioButton Margin="5" Checked="RadioButton_Checked">Дом</RadioButton>
+                    <RadioButton Margin="5" Checked="RadioButton_Checked">Работа</RadioButton>
+                    <RadioButton Margin="5" Checked="RadioButton_Checked">Учеба</RadioButton>
+                    <RadioButton Margin="5" >Прочее</RadioButton>
+                </StackPanel>
+                <Button x:Name="Filter" Content="{DynamicResource m_search}" Command="New" Height="20">
+                    <Button.CommandBindings>
+                        <CommandBinding Command="New" Executed="Filter_click"/>
+                    </Button.CommandBindings>
+                </Button>
+            </StackPanel>
+
+
+            <Grid Margin="5,5,5,0" Height="18" Background="WhiteSmoke">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="130"/>
+                    <ColumnDefinition Width="130"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Text="{DynamicResource m_type}"/>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="1" Text="{DynamicResource m_descr}"/>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="2" Text="{DynamicResource m_startDate}"/>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="3" Text="{DynamicResource m_endDate}"/>
+            </Grid>
+            <DataGrid HeadersVisibility="None" Margin="5, 0, 5, 5" x:Name="dataGrid" Grid.Column="1" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path = Type}"
+                                    Width="100"/>
+                    <DataGridTextColumn Binding="{Binding Path = Information}"
+                                    Width="*"/>
+                    <DataGridTextColumn Binding="{Binding Path = StartDate}"
+                                    Width="130" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding Path = EndDate}"
+                                    Width="130" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>

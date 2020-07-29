@@ -1,0 +1,10 @@
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\bin\Debug\Trigonom_Calcul.exe.config
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\bin\Debug\Trigonom_Calcul.exe
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\bin\Debug\Trigonom_Calcul.pdb
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\obj\Debug\Trigonom_Calcul.csprojAssemblyReference.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\obj\Debug\Trigonom_Calcul.Form1.resources
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\obj\Debug\Trigonom_Calcul.Properties.Resources.resources
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\obj\Debug\Trigonom_Calcul.csproj.GenerateResource.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\obj\Debug\Trigonom_Calcul.csproj.CoreCompileInputs.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\obj\Debug\Trigonom_Calcul.exe
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Trigonom_Calcul\Trigonom_Calcul\obj\Debug\Trigonom_Calcul.pdb

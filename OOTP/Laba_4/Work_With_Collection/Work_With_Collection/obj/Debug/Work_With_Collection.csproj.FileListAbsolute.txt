@@ -1,0 +1,10 @@
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\bin\Debug\Work_With_Collection.exe.config
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\bin\Debug\Work_With_Collection.exe
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\bin\Debug\Work_With_Collection.pdb
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\obj\Debug\Work_With_Collection.csprojAssemblyReference.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\obj\Debug\Work_With_Collection.Form1.resources
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\obj\Debug\Work_With_Collection.Properties.Resources.resources
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\obj\Debug\Work_With_Collection.csproj.GenerateResource.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\obj\Debug\Work_With_Collection.csproj.CoreCompileInputs.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\obj\Debug\Work_With_Collection.exe
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_4\Work_With_Collection\Work_With_Collection\obj\Debug\Work_With_Collection.pdb

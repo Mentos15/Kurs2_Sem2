@@ -1,0 +1,15 @@
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.Properties.Resources.resources
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.csproj.GenerateResource.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.csproj.CoreCompileInputs.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\bin\Debug\Laba_5.exe.config
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\bin\Debug\Laba_5.exe
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\bin\Debug\Laba_5.pdb
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.exe
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.pdb
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.csprojAssemblyReference.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.CreateObject.resources
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.Plain.resources
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.AddCrew.resources
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_5\Laba_5\Laba_5\obj\Debug\Laba_5.csproj.CopyComplete

@@ -1,0 +1,28 @@
+﻿Сборка начата 13.02.2020 23:31:30.
+     1>Проект "C:\Users\Виталий\2_KURS_2_SEM\КГИГ\Laba_1\Laba_1\Laba_1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Laba_1.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Debug\Laba_1.pch" /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt CApp.cpp CMainWin.cpp CMatrix.cpp
+         CApp.cpp
+     1>c:\users\виталий\2_kurs_2_sem\кгиг\laba_1\laba_1\cmainwin.h(2): fatal error C1083: Не удается открыть файл включение: resource.h: No such file or directory,
+         CMainWin.cpp
+     1>c:\users\виталий\2_kurs_2_sem\кгиг\laba_1\laba_1\cmainwin.h(2): fatal error C1083: Не удается открыть файл включение: resource.h: No such file or directory,
+         CMatrix.cpp
+     1>c:\users\виталий\2_kurs_2_sem\кгиг\laba_1\laba_1\cmatrix.cpp(418): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "pch.h"" в источник.
+         Создание кода...
+     1>Сборка проекта "C:\Users\Виталий\2_KURS_2_SEM\КГИГ\Laba_1\Laba_1\Laba_1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\Виталий\2_KURS_2_SEM\КГИГ\Laba_1\Laba_1\Laba_1.vcxproj" (целевой объект Build ) (1) ->
+       (ClCompile конечный объект) -> 
+         c:\users\виталий\2_kurs_2_sem\кгиг\laba_1\laba_1\cmainwin.h(2): fatal error C1083: Не удается открыть файл включение: resource.h: No such file or directory,
+         c:\users\виталий\2_kurs_2_sem\кгиг\laba_1\laba_1\cmainwin.h(2): fatal error C1083: Не удается открыть файл включение: resource.h: No such file or directory,
+         c:\users\виталий\2_kurs_2_sem\кгиг\laba_1\laba_1\cmatrix.cpp(418): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "pch.h"" в источник.
+
+    Предупреждений: 0
+    Ошибок: 3
+
+Прошло времени 00:00:00.70

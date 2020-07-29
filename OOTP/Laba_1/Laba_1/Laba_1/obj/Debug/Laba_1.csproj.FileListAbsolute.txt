@@ -1,0 +1,7 @@
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_1\Laba_1\Laba_1\bin\Debug\Laba_1.exe.config
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_1\Laba_1\Laba_1\bin\Debug\Laba_1.exe
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_1\Laba_1\Laba_1\bin\Debug\Laba_1.pdb
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_1\Laba_1\Laba_1\obj\Debug\Laba_1.csprojAssemblyReference.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_1\Laba_1\Laba_1\obj\Debug\Laba_1.csproj.CoreCompileInputs.cache
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_1\Laba_1\Laba_1\obj\Debug\Laba_1.exe
+C:\Users\Виталий\2_KURS_2_SEM\OOTP\Laba_1\Laba_1\Laba_1\obj\Debug\Laba_1.pdb
